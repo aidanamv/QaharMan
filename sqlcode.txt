@@ -1,0 +1,19 @@
+
+create database supply;
+use supply;
+ create table volunteers(
+    id int NOT NULL AUTO_INCREMENT,
+    name1 varchar(255),
+    surname1 varchar(255),
+    phone1 varchar(255),
+    email varchar(255),
+    service1 varchar(255),
+    service2 varchar(255),
+    service3 varchar(255),
+    service4 varchar(255),
+    service5 varchar(255),
+    password1 varchar(255),
+    re_password varchar(255),
+
+    PRIMARY KEY (id)
+ ); 

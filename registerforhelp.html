@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="assets/css/main.css" />
+         <!-- Font Icon -->
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+         <!-- Main css -->
+         <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body class="is-preload">
+    <div id="page-wrapper">
+
+            <!-- Header -->
+                <header id="header">
+                    <nav id="nav">
+                        <ul>
+                            <li><a href="index.html">Домой</a></li>
+                            <li>
+                                <a href="#" class="icon solid fa-angle-down">Меню</a>
+                                <ul>
+                                    <li><a href="contact.html">Связаться с нами</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="#" class="button">Войти</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+    <div class="main" сlass="container medium">
+      <center>
+
+        <section class="signup">
+        <form action="register.php" method="post">
+
+            <!-- <img src="images/socialservice.jpg" alt=""> -->
+            <div class="container">
+                <div class="signup-content">
+                    <form method="POST" id="signup-form" class="signup-form">
+                      <br>
+                        <h2 class="form-title" style="text-align:center">Нужна помощь!</h2>
+                        <div class="form-group">
+                            <input type="text" class="form-input" style="width: 400px; height:50px" name="name" id="name" placeholder="Имя"/>
+                        </div>
+                          <div class="form-group">
+                            <input type="text" class="form-input" style="width: 400px; height:50px" name="surname" id="surname" placeholder="Фамилия"/>
+                        </div>
+                         <div class="form-group">
+                            <input type="text" class="form-input" style="width: 400px; height:50px" name="age" id="age" placeholder="Возраст"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" style="width: 400px; height:50px" name="phone" id="phone" placeholder="Номер Телефона"/>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-input" style="width: 400px; height:50px" name="address" id="address" placeholder="Ваш Адрес"/>
+                        </div>
+                        <div class="form-group">
+                         <label for "services">Как мы можем Вам помочь?</label>
+                        
+                              <input type="checkbox" id="help1" name="help1" value="Ukol">
+                              <label for="help1">Поставить укол </label><br>
+                              <input type="checkbox" id="help2" name="help2" value="GroceryService">
+                              <label for="help2"> Купить продукты</label><br>
+                              <input type="checkbox" id="help3" name="help3" value="Uborka">
+                              <label for="help3">Сделать уборку</label><br>
+                              <input type="checkbox" id="help4" name="help4" value="Progulka">
+                              <label for="help4">Прогулка</label><br>
+                            <input type="checkbox" id="help5" name="help5" value="Gotovka">
+                              <label for="help5">Приготовить еду</label><br>
+                          </div>
+
+                        <div class="form-group">
+                            <input type="submit"  style="width: 400px; height:60px "name="submit" id="submit" class="form-submit" value="Подать заявку"/>
+                        </div>
+                    </form>
+                    <p class="loginhere">
+                         У Вас уже есть аккаунт? <a href="login.html" class="loginhere-link">Войдите здесь</a>
+                    </p>
+                </div>
+            </div>
+        </form>
+        </section>
+      </center>
+
+    </div>
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+</html>
